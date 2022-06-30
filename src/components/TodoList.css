@@ -1,0 +1,59 @@
+*{padding: 0; margin: 0 auto; box-sizing: border-box;}
+header {
+    background-image: linear-gradient(135deg, #d2f985 0%, #fdd2c8 100%);
+    width: 900px;
+    height: 140px;
+}
+h2 {
+    padding-top: 25px;
+    padding-bottom: 8px;
+    color: #222;
+}
+#todo_box {
+    display: flex;
+    align-items: center;
+}
+input {
+    width: 600px;
+    height: 28px;
+    padding-left: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-right: -120px;
+}
+.lists {
+    width: 900px;
+    background-color: #eee;
+    padding: 8px 0;
+    padding-left: 90px;
+    text-align: left;
+    line-height: 2.5;
+}
+button {
+    padding: 0px 8px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+#todo {
+    display: flex;
+}
+#todotodo {
+    margin-left: 0px;
+    cursor: pointer;
+}
+#delBtn {
+    font-size: 16px;
+    background-color: transparent;
+    margin-right: 80px;
+}
+.active {
+    text-decoration: line-through;
+}
+.isDone {
+    background-color: lightgoldenrodyellow;
+}
